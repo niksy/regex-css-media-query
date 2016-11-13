@@ -1,0 +1,43 @@
+{
+  "name": "regex-css-media-query",
+  "version": "0.0.0",
+  "description": "Regular expression for CSS media query.",
+  "main": "index.js",
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint '{index,test/**/*}.js' && nyc mocha 'test/**/*.js' && nyc check-coverage"
+  },
+  "dependencies": {
+    "css-length-units": "^1.0.0",
+    "css-media-features": "^1.0.0",
+    "css-resolution-units": "^1.0.1",
+    "media-query-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-niksy": "^3.0.1",
+    "mocha": "^3.1.2",
+    "nyc": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "css",
+    "media",
+    "query",
+    "regex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/regex-css-media-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niksy/regex-css-media-query/issues"
+  },
+  "homepage": "https://github.com/niksy/regex-css-media-query#readme"
+}
